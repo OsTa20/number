@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  border: 2px dotted red;
+  border-style: none;
+  border-bottom-style: dotted;
+  border-bottom-color: red;
+}
+
+label {
+  display: inline-block;
+  margin: 20px;
+  margin-bottom: 5px;
+  font-size: 25px;
+  background-color: #90e7fd;
+}
+
+input {
+  display: block;
+  margin-left: 20px;
+  padding: 10px;
+  font-size: 25px;
+}
+
+button {
+  display: block;
+  margin: 5px auto;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.hr {
+  color: red;
+  font-size: 2px;
+}
