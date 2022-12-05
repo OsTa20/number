@@ -1,4 +1,23 @@
-        //  input
+// dialog
+let opdi = document.getElementById('dialog');
+let header = document.querySelector('header');
+let hetf = false;
+
+function fopdi(){
+  if(hetf == false){
+    header.style = "height: 250px;";
+    opdi.innerHTML = '><';
+    hetf = true;
+  }
+  else {
+    header.style = "height: 60px;";
+    opdi.innerHTML = '|||';
+    hetf = false;
+  }
+}
+opdi.addEventListener('click',fopdi);
+// end dialog
+//  input
 let dicem = document.getElementById('dicem');
 let binar = document.getElementById('binar');
 let octem = document.getElementById('octem');
