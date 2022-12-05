@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
 }
-
 header {
   height: 60px;     /*    150    */
   background-color: #0295ba;
@@ -60,14 +59,12 @@ header div img {
 header div a {
   color: white;
 }
-
 div {
   border: 2px dotted red;
   border-style: none;
   border-bottom-style: dotted;
   border-bottom-color: red;
 }
-
 label {
   display: inline-block;
   margin: 20px;
@@ -75,21 +72,18 @@ label {
   font-size: 25px;
   background-color: #90e7fd;
 }
-
 input {
   display: block;
   margin-left: 20px;
   padding: 10px;
   font-size: 25px;
 }
-
 button {
   display: block;
   margin: 5px auto;
   padding: 10px;
   font-size: 25px;
 }
-
 .hr {
   color: red;
   font-size: 2px;
