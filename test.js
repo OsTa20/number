@@ -5,7 +5,7 @@ let hetf = false;
 
 function fopdi(){
   if(hetf == false){
-    header.style = "height: 250px;";
+    header.style = "height: 270px;";
     opdi.innerHTML = '><';
     hetf = true;
   }
