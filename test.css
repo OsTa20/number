@@ -90,7 +90,7 @@ input {
   width: 290px;                    
 }
 
-button {
+.button {
   margin: 5px;
   padding: 10px;
   font-size: 25px;
